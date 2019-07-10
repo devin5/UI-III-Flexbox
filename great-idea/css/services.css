@@ -151,14 +151,19 @@ section{
     list-style: square;
     list-style-position: outside;
     text-align: center;
+    padding-left:5em;
+    width: 250px;
 }
-/* li span{
-    text-align: left;
+li span{
     position: relative;
-    left: 1%;
-} */
+    text-align: left;
+    /* position: relative; */
+    /* left: 1%; */
+}
 li {
     /* position: left; */
+    /* padding-left:0px; */
+    /* margin-left: 0px; */
 }
 p{
     text-align:center;
