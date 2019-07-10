@@ -74,3 +74,93 @@ header a{
     padding-left:20px;
 
 }
+.logo{
+    padding-left:30px;
+}
+.pic1{
+  display:flex;
+  justify-content:center;
+  /* width: 100%; */
+  /* flex-grow: 1;  */
+}
+section p{
+    padding-bottom: 60px;
+}
+section h1{
+    font-size: 40px;
+    padding-top:25px;
+    padding-bottom:40px;
+}
+section{
+    border-bottom: black solid 3px
+    
+}
+
+.box{
+    background-color:whitesmoke;
+    margin-top: 50px;
+    border: black 1px solid;
+    display:flex;
+    flex-wrap:wrap;
+    width: 45%;
+    height:400px;
+   
+
+}
+
+.box p{
+    margin: 40px;
+
+}
+
+.box h4{
+    padding:20px
+}
+.allbox{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    border-bottom: 3px black solid;
+    padding-bottom: 30px;
+   }
+
+.box button{
+    width:100px;
+    height:30px;
+    margin-left:30px;
+}
+
+.bottombox{
+    display:flex;
+}
+
+.bottomright{
+    padding:20px;
+    padding-left:450px;
+}
+
+.bottomleft {
+    padding:20px;
+    width:30%;
+}
+.bottomleft h4{
+    padding-bottom: 30px;
+}
+.bottomleft ul {
+    padding-top:30px;
+    list-style: square;
+    list-style-position: outside;
+    text-align: center;
+}
+/* li span{
+    text-align: left;
+    position: relative;
+    left: 1%;
+} */
+li {
+    /* position: left; */
+}
+p{
+    text-align:center;
+    
+}

@@ -64,7 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
+nav a{
+	padding-left:50px;
+}
 .whole{
 	width:100%;
 	display:inline-block;
