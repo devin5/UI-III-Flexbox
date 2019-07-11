@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/* our code here*/
+
+body{
+    margin:40px;
+}
+    
+header{
+    display:flex;
+
+}
+header a{
+    padding-right:70px;
+    text-decoration:none;
+    color:grey;
+    padding-left:20px;
+
+}
+.logo{
+    padding-left:30px;
+}
+.pic1{
+  display:flex;
+  justify-content:center;
+  /* width: 100%; */
+  /* flex-grow: 1;  */
+}
+section p{
+    padding-bottom: 60px;
+}
+section h1{
+    font-size: 40px;
+    padding-top:25px;
+    padding-bottom:40px;
+}
+section{
+    border-bottom: black solid 3px
+    
+}
+
+.box{
+    background-color:whitesmoke;
+    margin-top: 50px;
+    border: black 1px solid;
+    display:flex;
+    flex-wrap:wrap;
+    width: 45%;
+    height:400px;
+   
+
+}
+
+.box p{
+    margin: 40px;
+
+}
+
+.box h4{
+    padding:20px
+}
+.allbox{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    border-bottom: 3px black solid;
+    padding-bottom: 30px;
+    background-color: tan
+
+   }
+
+.box button{
+    width:100px;
+    height:30px;
+    margin-left:30px;
+    background-color: grey
+}
+
+.bottombox{
+    display:flex;
+}
+
+.bottomright{
+    padding:20px;
+    padding-left:450px;
+}
+
+.bottomleft {
+    padding:20px;
+    width:30%;
+}
+.bottomleft h4{
+    padding-bottom: 30px;
+}
+.bottomleft ul {
+    padding-top:30px;
+    list-style: square;
+    list-style-position: outside;
+    text-align: center;
+    padding-left:5em;
+    width: 250px;
+}
+li span{
+    position: relative;
+    text-align: left;
+    /* position: relative; */
+    /* left: 1%; */
+}
+li {
+    /* position: left; */
+    /* padding-left:0px; */
+    /* margin-left: 0px; */
+}
+p{
+    text-align:center;
+    
+}
