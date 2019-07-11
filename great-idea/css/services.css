@@ -122,12 +122,15 @@ section{
     justify-content: space-evenly;
     border-bottom: 3px black solid;
     padding-bottom: 30px;
+    background-color: tan
+
    }
 
 .box button{
     width:100px;
     height:30px;
     margin-left:30px;
+    background-color: grey
 }
 
 .bottombox{
